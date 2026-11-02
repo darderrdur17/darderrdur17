@@ -24,11 +24,17 @@ Top-1% view prediction for TikTok, from pre-publication metadata only — traini
 then predicting engagement isn't a prediction. Beats random by **2.18×** on a month it never saw, and
 nulls the 34.72% of labels whose stats predate publication rather than guessing at them.
 
-**[CommodityPlay.](https://www.commodityplay.ai)** · `Next.js 16` `Prisma` `Stripe` `Expo`
+**[ApexIQ](https://apexiq-theta.vercel.app)** · `Python` `FastAPI` `scikit-learn` `ECharts`
 
-A membership platform for commodity-trading careers: two content tracks, three tiers, Stripe
-subscriptions, and an Expo mobile client on the same backend. A freelance build I develop as part of
-a small technical team — the interesting part was getting billing right in exactly one place.
+F1 telemetry analytics and race forecasting, built so a prediction can never be mistaken for a
+measurement. Every forecast runs from a fixed information cutoff and is reported against a baseline
+the model sometimes loses to — where the numbers are weak, the interface says so.
+
+**[TennisIQ](https://tennisiq-self.vercel.app)** · `Python` `FastAPI` `React`
+
+ATP and WTA match forecasting, modelled as two separate problems rather than one. 118,210 matches
+with strict temporal cutoffs; gradient-boosted trees hold **64.7%** on seasons they never saw — 14.7
+points over a coin flip.
 
 **[360 Cogni](https://360cogni.com)** · `React 19` `React Native` `Supabase`
 
@@ -60,8 +66,8 @@ persistence won.
 
 ## What I'm working on
 
-- **CommodityPlay.** — the billing and mobile layers, plus keeping the content model honest as it grows
 - **Leakage-controlled ML** — how much of an outcome is genuinely knowable *before* it happens, and what an honest accuracy number looks like when you find out it isn't much
+- **Shipping small things end to end** — a classroom puzzle game, an ASEAN judging portal, a bilingual university site
 - **Open to full-time** data / software engineering roles in Singapore
 
 ---
@@ -88,7 +94,6 @@ most things, FastAPI or Node behind it, Vercel or Docker in front.
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=white&style=flat-square)](https://www.linkedin.com/in/derren-winata/)
 [![Portfolio](https://img.shields.io/badge/Portfolio-derren--winata--portfolio-000000?logo=vercel&logoColor=white&style=flat-square)](https://derren-winata-portfolio.vercel.app)
 [![Email](https://img.shields.io/badge/Email-wderren17@gmail.com-EA4335?logo=gmail&logoColor=white&style=flat-square)](mailto:wderren17@gmail.com)
-[![X](https://img.shields.io/badge/X-@derren__winata-000000?logo=x&logoColor=white&style=flat-square)](https://x.com/derren_winata)
 
 Always happy to talk about data pipelines, evaluation methodology, or why the demo is never the hard
 part. If you're hiring in Singapore, my inbox is open.
