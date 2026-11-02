@@ -1,81 +1,94 @@
 # Hi, I'm Derren 👋
 
-**Full-Stack Engineer · Data Engineering & AI Systems**
+**Data science, AI, and product engineering — mostly at the point where a model has to become something a person can actually use.**
 
-B.Sc. Data Science & Analytics, National University of Singapore (2026)
-
-I build end-to-end systems at the intersection of data, engineering and real-world impact — from a cognitive health platform live at [360cogni.com](https://360cogni.com), to a health-economics research platform used in active clinical interviews, to internal automation platforms that serve programme managers and senior leadership.
+B.Sc. Data Science & Analytics, National University of Singapore (2026) · Singapore
 
 ---
 
-## 🚀 Featured Projects
+Most of my work ends up in front of someone who has to make a decision with it: a family wondering
+whether to seek a cognitive assessment, a researcher running a time-trade-off interview, a teacher
+running a classroom session, a programme manager who needs the numbers by Monday morning.
 
-| Project | Stack | Description |
-|---|---|---|
-| [360Cogni](https://360cogni.com) | React 19, TypeScript, React Native/Expo, Supabase | Live cognitive health platform — multi-domain screening, brain training and caregiver management across web and mobile |
-| [EQ-5D-5L TTO — Health Economics Platform](https://github.com/darderrdur17/EQ-5D-5L-TTO) | React, TypeScript, Vite, Supabase/PostgreSQL, shadcn/ui | Clinical research platform for EQ-5D-5L time-trade-off studies · 12-table schema with row-level security · pseudonymised participant data · accessible design (ARIA, keyboard navigation, screen-reader support) · 5 languages |
-| [Sunnystep — AI Marketing Automation](https://github.com/darderrdur17/sunnystep-strides) | React 18, TypeScript, Supabase, Recharts | Marketing operations dashboard with 4 autonomous agents, revenue forecasting, and A/B testing with Z-test significance analysis |
-| [AI Ready ASEAN — Judging Portal](https://github.com/darderrdur17/aira-youth-judging-portal) | Next.js, TypeScript, Supabase | Competition evaluation platform that replaced manual spreadsheets across ASEAN · judge assignment, weighted scoring, organiser dashboards, ranked results and CSV export |
-| [Receipt Automation](https://github.com/darderrdur17/Receipt-Image) | Gemini 2.5 Flash, Google Forms / Sheets / Drive | Form → AI → structured Sheet pipeline · extracts supplier, sub-total, GST and payable totals from PDF/JPG receipts |
-| Halal Food Data Pipeline | Python, pandas | 2,695+ establishments scraped and validated from Singapore's official MUIS registry · 99.72% address coverage · reproducible Makefile pipelines |
-| [Bassline — SF Nightlife Navigator](https://github.com/darderrdur17/nightlife-navigator-main) | React 18, TypeScript, Leaflet, Supabase | Search and filter bars and clubs · Leaflet map with custom markers · saved favourites backed by Supabase auth and a row-level-secured table |
+That shapes what I build. I'd rather ship something that says what it *can't* do than something that
+only looks clever in a demo — so the parts I'm proudest of tend to be the least photogenic ones: the
+held-out month, the baseline I had to beat, the label I refused to impute.
 
 ---
 
-## 🛠️ Tech Stack
+## Some things I've built
 
-**Frontend**
-![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat&logo=typescript&logoColor=white)
-![React Native](https://img.shields.io/badge/React_Native-20232A?style=flat&logo=react&logoColor=61DAFB)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat&logo=tailwind-css&logoColor=white)
+**[ViralIQ](https://github.com/darderrdur17/ViralIQ)** · `Python` `FastAPI` `DuckDB` `CatBoost`
 
-**Backend & Database**
-![Node.js](https://img.shields.io/badge/Node.js-43853D?style=flat&logo=node.js&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=flat&logo=fastapi&logoColor=white)
-![Django](https://img.shields.io/badge/Django-092E20?style=flat&logo=django&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat&logo=postgresql&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat&logo=supabase&logoColor=white)
+Top-1% view prediction for TikTok, from pre-publication metadata only — training on engagement and
+then predicting engagement isn't a prediction. Beats random by **2.18×** on a month it never saw, and
+nulls the 34.72% of labels whose stats predate publication rather than guessing at them.
 
-**Data & Analytics**
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat&logo=mysql&logoColor=white)
-![Tableau](https://img.shields.io/badge/Tableau-E97627?style=flat&logo=tableau&logoColor=white)
+**[CommodityPlay.](https://www.commodityplay.ai)** · `Next.js 16` `Prisma` `Stripe` `Expo`
 
-**Deployment**
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat&logo=vercel&logoColor=white)
-![Render](https://img.shields.io/badge/Render-46E3B7?style=flat&logo=render&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+A membership platform for commodity-trading careers: two content tracks, three tiers, Stripe
+subscriptions, and an Expo mobile client on the same backend. A freelance build I develop as part of
+a small technical team — the interesting part was getting billing right in exactly one place.
 
----
+**[360 Cogni](https://360cogni.com)** · `React 19` `React Native` `Supabase`
 
-## 📊 Experience Highlights
+A cognitive health platform for families acting on early signs of dementia — screening, brain
+training, and caregiver tools in one place. I helped take it from problem definition to a live MVP,
+which mostly meant deciding what *not* to build first.
 
-- 🚀 **Programme & Partnerships Assistant** @ AI Singapore — shipped three platforms, including the NSWS automation platform (FastAPI, PostgreSQL, Celery, LangGraph) serving programme managers and senior leadership
-- 🏥 **Product Manager Intern** @ Digital Health Startup — launched [360cogni.com](https://360cogni.com) from zero to MVP
-- 🎲 **Web & Mobile Dev Intern** @ NUS (DSFP Programme) — built dementia support platform for seniors & caregivers
-- 🔬 **Student Researcher** @ NUS — health-economics research platform for clinical TTO interviews
-- 📊 **eCommerce Analytics Intern** @ Marina Bay Sands — 98% data accuracy, 15% conversion lift, 83% time saved
-- 🤖 **Software Developer** @ Medisaya — 50,000+ records scraped, Django REST APIs, AI/ML integration
-- ✅ **QA Student Assistant** @ AI Singapore — 1,000+ files validated, 30% reduction in post-launch errors
+**[Creativity is…](https://github.com/darderrdur17/creative-puzzle-studio)** · `React 18` `Supabase Realtime`
 
----
+A classroom puzzle game about the four stages of the creative process. Students place stage keys and
+match quotes; the teacher runs the room from a live dashboard. Each student's own answer to *"where
+do you get your best ideas?"* gets dealt onto the board — which is the part they remember.
 
-## 🎓 Education
+**[EQ-5D-5L TTO Research Tool](https://github.com/darderrdur17/EQ-5D-5L-TTO)** · `React` `PostgreSQL` `Supabase`
 
-**B.Sc. Data Science & Analytics** — National University of Singapore *(2022 – 2026)*
+A research tool for health-economics time-trade-off studies: real-time utility calculation,
+pseudonymised participant data, and accessible design throughout. It gets used in live interviews,
+so accessibility was a requirement rather than a nice-to-have.
 
-Relevant coursework: Machine Learning, Data Science in Practice, Regression Analysis, Mathematical Statistics, High-Dimensional Statistical Analysis, Quantitative Finance
+**[DDOG Earnings Tracker](https://github.com/darderrdur17/ddog-earnings-tracker)** · `Python` `scikit-learn`
+
+A pre-earnings nowcast for Datadog built entirely from public data — npm downloads, SEC XBRL,
+Wikimedia pageviews. Benchmarked against a dumb persistence baseline, and reported straight when
+persistence won.
+
+<sub>Also around: a Go/Kafka social pipeline ([Pulse](https://github.com/darderrdur17/pulse)), a bilingual university site prototype ([UNR](https://github.com/darderrdur17/unr-website)), an ASEAN competition judging portal ([AIRA](https://github.com/darderrdur17/aira-youth-judging-portal)), five years of S&P 500 sector work, and a Leaflet nightlife map ([Bassline](https://github.com/darderrdur17/nightlife-navigator-main)).</sub>
 
 ---
 
-## 📬 Connect
+## What I'm working on
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/derren-winata/)
-[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=flat&logo=vercel&logoColor=white)](https://derren-winata-portfolio.vercel.app)
-[![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:wderren17@gmail.com)
+- **CommodityPlay.** — the billing and mobile layers, plus keeping the content model honest as it grows
+- **Leakage-controlled ML** — how much of an outcome is genuinely knowable *before* it happens, and what an honest accuracy number looks like when you find out it isn't much
+- **Open to full-time** data / software engineering roles in Singapore
 
 ---
 
-*Open to full-time software engineering and data engineering roles — based in Singapore 🇸🇬*
+## Tools I reach for
+
+TypeScript and React by default, Python when there's data to argue with. Postgres or Supabase for
+most things, FastAPI or Node behind it, Vercel or Docker in front.
+
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white&style=flat-square)
+![React](https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB&style=flat-square)
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white&style=flat-square)
+![Next.js](https://img.shields.io/badge/Next.js-000000?logo=nextdotjs&logoColor=white&style=flat-square)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white&style=flat-square)
+![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?logo=supabase&logoColor=white&style=flat-square)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white&style=flat-square)
+![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white&style=flat-square)
+![Vercel](https://img.shields.io/badge/Vercel-000000?logo=vercel&logoColor=white&style=flat-square)
+
+---
+
+## Say hello
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=white&style=flat-square)](https://www.linkedin.com/in/derren-winata/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-derren--winata--portfolio-000000?logo=vercel&logoColor=white&style=flat-square)](https://derren-winata-portfolio.vercel.app)
+[![Email](https://img.shields.io/badge/Email-wderren17@gmail.com-EA4335?logo=gmail&logoColor=white&style=flat-square)](mailto:wderren17@gmail.com)
+[![X](https://img.shields.io/badge/X-@derren__winata-000000?logo=x&logoColor=white&style=flat-square)](https://x.com/derren_winata)
+
+Always happy to talk about data pipelines, evaluation methodology, or why the demo is never the hard
+part. If you're hiring in Singapore, my inbox is open.
